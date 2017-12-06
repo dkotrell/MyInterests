@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Kind of Music</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <style type="text/css">
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Calibri, sans-serif;
+  }
+
+  .background-wrap {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+  }
+
+  #video-bg-elem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  .content {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  .content h1 {
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 15%;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #aaa;
+  }
+
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Music</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="frontPage.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Interests
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="photos.html">Photography</a>
+            <a class="dropdown-item" href="music.html">Music</a>
+            <a class="dropdown-item" href="travel.html">Travel</a>
+            <a class="dropdown-item" href="sports.html">Sports</a>
+            <a class="dropdown-item" href="#">Technology</a>
+            <a class="dropdown-item" href="#">Coding</a>
+            <a class="dropdown-item" href="running.html">Running</a>
+            <a class="dropdown-item" href="#">Comics</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li> -->
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <!-- <input class="form-control mr-sm-2" type="contact" placeholder="Contact" aria-label="Contact"> -->
+        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true" style="background: red;">Contact Me</a>
+      </form>
+    </div>
+  </nav>
+
+    <div class="background-wrap">
+
+      <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+        <source src="HipHop.mp4" type="video/mp4">
+          Video Not Supported
+      </video>
+
+    </div>
+
+    <div class="content">
+
+      <h1>HIP HOP</h1>
+      <p>This is my music!</p>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+  </head>
+  <body background="images/blueRidge.jpg" style="background-size: cover">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Photography</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="frontPage.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Interests
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="photos.html">Photography</a>
+            <a class="dropdown-item" href="music2.html">Music</a>
+            <a class="dropdown-item" href="travel.html">Travel</a>
+            <a class="dropdown-item" href="sports.html">Sports</a>
+            <a class="dropdown-item" href="#">Technology</a>
+            <a class="dropdown-item" href="coding.html">Coding</a>
+            <a class="dropdown-item" href="running.html">Running</a>
+            <a class="dropdown-item" href="#">Comics</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Contact Me</a>
+      </form>
+    </div>
+  </nav>
+
+      <div class="container">
+        <h1 style="padding-bottom: 25px">Photo Gallery</h1>
+        <div class="gallery">
+          <div class="row">
+            <div class="col-lg-3">
+              <a href="images/alley.jpg" data-title="Amsterdam alley in black&white" data-lightbox="My Shots">
+                <img src="images/alley.jpg" width="200px"  class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/alone.jpg" data-title="Alone but not really" data-lightbox="My Shots">
+                <img src="images/alone.jpg" width="150px" style="margin: 0 0 0 30px" class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/asheville.jpg" data-title="Sunset in Asheville" data-lightbox="My Shots">
+                <img src="images/asheville.jpg" width="200px" class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/beachBW.jpg" data-title="At the beach in black&white" data-lightbox="My Shots">
+                <img src="images/beachBW.jpg" width="200px" class="img-thumbnail"/>
+              </a>
+            </div>
+          </div><!---This is where row 1 ends--->
+          <div class="row">
+            <div class="col-lg-3">
+              <a href="images/drBeach.jpg" data-title="Escape from reality" data-lightbox="My Shots">
+                <img src="images/drBeach.jpg" width="200px" style="margin-top:50px" class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/kids.jpg" data-title="Not a care in the world" data-lightbox="My Shots">
+                <img src="images/kids.jpg" width="200px" style="margin-top:50px" class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/nas.jpg" data-title="It's Illmatic" data-lightbox="My Shots">
+                <img src="images/nas.jpg" width="150px" style="margin: 50px 0 0 30px"  class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/newyorkBW.jpg" data-title="Gloomy in NY" data-lightbox="My Shots">
+                <img src="images/newyorkBW.jpg" width="150px" style="margin: 50px 0 0 50px" class="img-thumbnail"/>
+              </a>
+            </div>
+          </div><!---This is where row 2 ends--->
+          <div class="row">
+            <div class="col-lg-3">
+              <a href="images/peppers.jpg" data-title="Get'em while they're hot!" data-lightbox="My Shots">
+                <img src="images/peppers.jpg" width="150px" style="margin-top:50px" class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/skateboard.jpg" data-title="Wheels under me" data-lightbox="My Shots">
+                <img src="images/skateboard.jpg" width="200px" style="margin-top:50px" class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/sky.jpg" data-title="Crack open the sky" data-lightbox="My Shots">
+                <img src="images/sky.jpg" width="150px" style="margin: 50px 0 0 30px" class="img-thumbnail"/>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href="images/soccer.jpg" data-title="GOOOOAAAALLLLL" data-lightbox="My Shots">
+                <img src="images/soccer.jpg" width="200px" style="margin-top:50px" class="img-thumbnail"/>
+              </a>
+            </div>
+          </div><!---This is where row 3 ends--->
+        </div>
+      </div>
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="./js/popper.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="./js/lightbox.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="./js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
